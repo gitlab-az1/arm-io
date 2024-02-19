@@ -10,13 +10,11 @@
       "es2017",
       "es2021",
       "WebWorker",
-      "Webworker.Iterable",
-      "dom",
-      "DOM.Iterable"
+      "Webworker.Iterable"
     ],
     "allowJs": true,
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "./node-src",
     "baseUrl": ".",
     "moduleResolution": "node",
     "declaration": true,
@@ -36,6 +34,6 @@
     "noFallthroughCasesInSwitch": true,
     "paths": {}
   },
-  // "include": ["./src/**/*.ts"],
+  "include": ["./node-src/**/*.ts"],
   "exclude": ["node_modules"]
 }

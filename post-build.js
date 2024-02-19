@@ -6,7 +6,7 @@ const path = require('node:path');
 const fs = require('node:fs');
 
 const buildDir = path.resolve(process.cwd(), 'dist');
-const srcDir = path.resolve(process.cwd(), 'src');
+const srcDir = path.resolve(process.cwd(), 'node-src');
 
 async function recursiveRemoveDirectoryFiles(dir) {
   if(!fs.existsSync(dir)) return;
